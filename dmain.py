@@ -5,12 +5,14 @@
 from time import sleep
 import random as ran
 
+# Uses randrange() method
 def randomRangeElement(list):
     index = ran.randrange(0,len(list)-1)
     item = list[index]
 
     print(f'{item} is at index {index}!')
 
+# Uses randint() method
 def randomIntElement(list):
     index = ran.randint(0,len(list)-1)
     item = list[index]
